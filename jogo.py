@@ -1,0 +1,1 @@
+# Arquivo responsável pela lógica do jogo.
