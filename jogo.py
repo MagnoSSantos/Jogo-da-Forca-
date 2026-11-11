@@ -26,8 +26,12 @@ def jogar():
         print("\nPalavra:", mostrar_palavra(palavra, letras_corretas))
         print("Tentativas restantes:", tentativas)
 
-        letra = input("Digite uma letra: ").lower()
-
+        try:
+            letra = input("Digite uma letra: ").lower()
+        except (EOFError, KeyboardInterrupt):
+             print("\nJogo interrompido.")
+             return
+        
         if len(letra) != 1 or not letra.isalpha():
             print("Digite apenas uma letra.")
             continue
