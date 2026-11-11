@@ -38,3 +38,34 @@ O jogador perde quando atingir o número máximo de tentativas erradas sem desco
 1. O jogo deve ser simples e fácil de utilizar.
 2. O sistema deve aceitar apenas letras como entrada.
 3. O jogo deve apresentar as informações de forma clara para o jogador.
+
+## Instruções de execução
+
+1. Ter o Python instalado no computador.
+2. Abrir a pasta do projeto no Visual Studio Code.
+3. Abrir o terminal.
+4. Executar o comando:
+
+python main.py
+
+5. O Jogo da Forca será iniciado no terminal.
+
+## Exemplo de utilização
+
+Ao executar o programa, será apresentado:
+
+=== JOGO DA FORCA ===
+
+Palavra: _ _ _ _ _ _
+Tentativas restantes: 6
+Digite uma letra: p
+
+Se a letra existir na palavra:
+
+Você acertou!
+
+Se a letra não existir:
+
+Você errou!
+
+O jogo termina quando o jogador descobrir a palavra ou atingir o limite de 6 tentativas erradas.
