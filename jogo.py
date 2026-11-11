@@ -52,4 +52,4 @@ def jogar():
     print("\nVocê perdeu!")
     print("A palavra era:", palavra)
 
-jogar()          
+        
