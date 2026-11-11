@@ -44,3 +44,12 @@ def jogar():
         else:
             tentativas -= 1
             print("Você errou!")
+
+        if all(letra in letras_corretas for letra in palavra):
+                print("\nParabéns! Você venceu!")
+                print("A palavra era:", palavra)
+                return
+    print("\nVocê perdeu!")
+    print("A palavra era:", palavra)
+
+jogar()          
